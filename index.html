@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery-1.11.1.js"></script>
+	<link type="text/css" rel="stylesheet" href="header.css">
+	<meta name="description" content="We use an algorithm to match you to the perfect job or candidate based on your skills and personality.">
+	<meta name="keywords" content="Amployer, Employer, amployer, job, career">
+	<meta name="google-site-verification" content="r7ouzFiqFISeI3T6w9jFng7Xu3JniiMKSn6VRvSbq6s" />
+	<meta name="google-site-verification" content="eBpc4u5pLB9PGM9cB_Q_7KhmFu7RIUaDT8vwVBofIIQ" />
+	<title>Amployer</title>
+</head>
+
+<body>
+<!--Head-->
+<div class='headBarMob'>
+	<div class='cphraseMob'>
+	    <a class='nameMob' href='index'><img class='logoMob' src='amployer_logo.png'></img><span class='betaMob'>BETA</span></a>
+	</div>
+	<div class='navbarMob'>
+	    <a href='log-in-mobile-seeker' class='submitLogInMobile'>Log In As Seeker</a>
+	    <a href='log-in-mobile-employer' class='submitLogInMobile'>Log In As Employer</a>
+	</div>
+    </div>
+    <div class='headBarHome headBar'>
+	<div class='cphrase'>
+	    <a class='name' href='index'><img class='logo' src='amployer_logo.png'></img><span class='beta'>BETA</span></a>
+	</div>
+	<div class='signIn'>
+	    <form action='' method='post'>
+		<div>
+			<select name='userTypeLogIn' class='signInField'>
+				<option value='seeker'>Job Seeker</option>
+				<option value='employer'>Employer</option>
+			</select>
+			<div class='signInField'>
+			    <input type='text' name='emailLogIn' class='signInFieldSub' placeholder='Email'>
+			</div>
+			<div class='signInField'>
+			    <input type='password' name='passwordLogIn' class='signInFieldSub signInBut' placeholder='Password'>
+			    <a class='signInFieldSub2' id='forgotPass' href='forgot-password'>Forgot my password</a>
+			</div>
+			<input type='submit' name='submitLogIn' id='submitLogIn' value='Log in'>
+		</div>
+	    </form>
+	</div>
+    </div>
+
+<div class='navbar navbarHome'>
+	<a class='navgen' href='#seeker' id='navseek'>
+		How it works: Seeker
+	</a>
+	<a class='navgen' href='#employer' id='navseek'>
+		How it works: Employer
+	</a>
+	<a class='navgen' href='#about'>
+		About Us
+	</a>
+	<a class='navgen' href='http://www.amployer.com/blog'>
+		Our Blog
+	</a>
+	<a class='navgen' id='signUpSeeker' href='seeker-form'>
+		Sign up as a Seeker
+	</a>
+	<a class='navgen' id='signUpEmployer' href='employer-form'>
+		Sign up as an Employer
+	</a>
+</div>
+<!--Main-->
+<div class="hpSec">
+	<div class="centerHome">
+	<div class="signUp">
+		<div class="descHead">Tired of the job search process? Let our algorithm do the work for you.</div>
+		<form name="home" id="homeForm" method='post'>
+			<div class="regForm">I am</div>
+			<select name="userType" class="regForm" id="homeUT">
+				<option value="seeker">a job seeker</option>
+				<option value="employer">an employer</option>
+			</select>
+			<div name='Submit' class='button' id='homeFormSubmit'>Create profile!</div>
+		</form>
+	</div>
+	<div class="desc">
+		<div class="subDesc">
+			<p>We use dating-website techniques to unite employers and job seekers together in jobtrimony</p>
+		</div>
+		
+		<div class="subDesc">
+			<p>Create a profile, answer some questions, get matched to the perfect job or candidate</p>
+		</div>
+		<div class="subDesc">
+			<p>
+				<span class="mobBreak">Always free for job seekers</span>
+				<span class="mobBreak">Absurdly cheap for employers</span>
+			</p>
+		</div>
+	</div>
+	</div>
+</div>
+<a class='anchor' name="seeker"></a>
+<!--Add social media section to bottom left corner-->
+<!-----------------------------------------------------------SEEKERS----------------------------------------------------------->
+<div class="hpSec2">
+	<div class="mainTitle">How it works: Seekers</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Answer questions about:</div>
+			</div>
+			<div class="secDescHP center">
+				How much you want to get paid<br>
+				Your skills<br>
+				Your experience and education<br>
+				Your personality<br>
+				The benefits you want
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Let our algorithm do the searching for you</div>
+			</div>
+			<div class="secDescHP">
+				Just like on a dating website, we give you a list of your best matches. Browse through their profiles and send connection requests to the jobs you like best. If they like you too, we&rsquo;ll send them your contact info and let them take it from there.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Let employers come to you</div>
+			</div>
+			<div class="secDescHP">
+				Employers see the same match score you do. So, after creating a profile, you can just sit back and relax. We&rsquo;ll notify you via email as soon as they reach out to you. 
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">No cover letters ever again</div>
+			</div>
+			<div class="secDescHP">
+				We limit you to three applications per day. This way, when you apply for a job, employers will know that you&rsquo;re sincerely interested in them.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Only hear from the jobs that value you</div>
+			</div>
+			<div class="secDescHP">
+				Employers are charged a small fee every time they send you a contact request. They're literally paying to talk to you.
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">The jobs you see will be able to afford you</div>
+			</div>
+			<div class="secDescHP">
+				Enter a minimum salary and we&rsquo;ll filter out the jobs that offer less. Need dental? You can filter on benefits too.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Job seekers pay nothing</div>
+			</div>
+			<div class="secDescHP">
+				Ever.
+			</div>
+		</div>
+	</div>
+</div>
+<a class='anchor' name="employer"></a>
+<!-----------------------------------------------------------EMPLOYERS----------------------------------------------------------->
+<div class="hpSec1">
+	<div class="mainTitle">How it works: Employers</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Answer questions about:</div>
+			</div>
+			<div class="secDescHP center">
+				The skills you&rsquo;re looking for<br>
+				The experience and education you&rsquo;re looking for<br>
+				The cultural and personality attributes you want<br>
+				The compensation and benefits you offer<br>
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Let our algorithm do the searching for you</div>
+			</div>
+			<div class="secDescHP">
+				Just like on a dating website, we give you a list of your best matches. Browse through their profiles and send contact requests to the job seekers you like best. If they like you too, we&rsquo;ll send you their contact info and let you take it from there.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Let job seekers come to you</div>
+			</div>
+			<div class="secDescHP">
+				Seekers see the same match score you do. We&rsquo;ll notify you via email once they send you contact requests. You can just sit back and wait.
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Only hear from serious candidates</div>
+			</div>
+			<div class="secDescHP">
+				Seekers are limited to three applications per day. If they respond to your post, they&rsquo;re more interested in you than they are in just about everyone else.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">You&rsquo;ll be able to afford the seekers you see</div>
+			</div>
+			<div class="secDescHP">
+				Enter a maximum salary and we&rsquo;ll filter out the job seekers that want more.
+			</div>
+		</div>
+	</div>
+	<div class="mainSec">
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">Filter on skills</div>
+			</div>
+			<div class="secDescHP">
+				 Absolutely need someone who knows both inside and enterprise sales? Just make them required skills and you&rsquo;re good to go.
+			</div>
+		</div>
+		<div class="subSec">
+			<div class="secHead">
+				<div class="secHeadContrast">We&rsquo;re cheaper than a caramel macchiato</div>
+			</div>
+			<div class="secDescHP">
+				Creating a profile and browsing through your matches is completely free! We&rsquo;ll also give you two free credits just for entering your credit card info. Thereafter, it&rsquo;s pay-as-you-go: $5 for every connection request you send or receive. Interested in bulk credits? Email us at contact@amployer.com.
+			</div
+		</div>
+	</div>
+	<a class='anchor' name="about"></a>
+</div>
+	<!-----------------------------------------------------------ABOUT US----------------------------------------------------------->
+<div class="hpSec2">
+	<div class="mainTitle">About us</div>
+	<div class="mainSec aboutSec">
+		<div class="subSec">
+			<div class="secDescHP">
+				We're a small team of data monkeys with a passion for predictive analytics. We love solving problems with math almost as much as we love making you happy.
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='footer'>
+	<a href='legal' class='footerSub'>Terms & Conditions</a>
+	<a href='privacy' class='footerSub'>Privacy Policy</a>
+	<a href='mailto:contact@amployer.com' class='footerSub'>contact@amployer.com</a>
+	<div class='footerSub'>Amployer, LLC Copyright &#169; 2016</div>
+</div>
+</body>
+
+</html>
