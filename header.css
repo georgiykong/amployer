@@ -1,0 +1,963 @@
+/*-----------------------------------------------------------------DESKTOP------------------------------------------*/
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    font-family: 'Arvo';
+    background-color: #fdfffc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headBar {
+    background-color: #4caf50;
+    width: 100%;
+    height: 63px;
+    position: fixed;
+    display: block;
+    top: 0px;
+    z-index: 3;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 1000px;
+    /*display: none;
+    background-color: transparent;*/
+}
+
+.headBarMob {
+    display: none;
+}
+
+.navbar {
+    height: 1%;
+    min-width: 1000px;
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 15px;
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    background-color: #388e3c;
+    font-size: 14px;
+    z-index: 1;
+    /*display: none;
+    background-color: transparent;*/
+}
+    .navbar a:first-child {
+        
+    }
+    
+    .formTabs {
+        text-align: center;
+        z-index: 10;
+    }
+
+.hpSec {
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.centerHome {
+    padding-top: 135px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hpSec1 {
+    text-align: center;
+    height: auto;
+    color: black;
+}
+
+.hpSec2 {
+    background-image: url('colorNew.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+.mainBody {
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.mainTitle {
+    font-size: 30px;
+    padding: 10px;
+    font-family: mate;
+    padding-top: 25px;
+}
+
+.mainSec {
+    display: block;
+}
+
+.subSec {
+    padding-bottom: 50px;
+    padding-left: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.secHead {
+    text-align: center;
+    width: 450px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: mate;
+    font-weight: bolder;
+    color: white;
+}
+
+.hpSec1 .secHead {
+    background-image: url('color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secHeadContrast {
+    background-color: rgba(0,0,0,0.2);
+    padding: 15px;
+}
+
+.secDescHP {
+    text-align: left;
+    width: 450px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.center {
+    width: auto;
+    text-align: center;
+}
+
+.seek {
+    display: block;
+    color: black;
+}
+
+.emp {
+    color: black;
+}
+
+.backEdit {
+    display: inline-block;
+    left: 1px;
+    position: absolute;
+}
+
+.navgen {
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    margin-left: 3px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .navgen:hover {
+        color: #70bfb7;
+    }
+
+#signUpSeeker {
+    border: 1px solid #D1FFC2;
+}
+
+    #signUpSeeker:hover {
+        background-color: #70bfb7;
+        color: white;
+    }
+
+#signUpEmployer {
+    border: 1px solid #FFD699;
+}
+
+    #signUpEmployer:hover {
+        background-color: #70bfb7;
+        color: white;
+    }
+
+.twoHeadBar {
+    display: block;
+}
+
+.cphrase {
+    color: #b3f497;
+    display: inline-block;
+    left: 5px;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.name {
+    text-decoration: none;
+    z-index: 5;
+    color: white;
+    height: 40px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.name:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.beta {
+    font-size: 15px;
+    vertical-align: top;
+    color: white;
+    height: 10px;
+}
+
+.yourName {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    width: auto;
+    right: 20px;
+    top: 5px;
+    position: absolute;
+    z-index: 20;
+}
+
+.logOut {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    width: auto;
+    right: 20px;
+    top: 35px;
+    position: absolute;
+    z-index: 20;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+    .logOut:hover {
+        background-color: #70bfb7;
+    }    
+
+.yourJob {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3399FF;
+    width: auto;
+    top: 10px;
+    right: 20px;
+    position: absolute;
+    z-index: 20;
+}
+
+.signIn {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #317f49;
+    max-width: 550px;
+    right: 20px;
+    top: 5px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#signOut {
+    display: inline-block;
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+}
+
+.signInField {
+    display: inline-block;
+    color: black;
+    background-color: #FBFFF9;
+    border: none;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+    width: 120px;
+    height: 20px;
+    margin: 5px;
+    padding: 0px;
+    z-index: 99;
+}
+
+.signInFieldSub {
+    display: block;
+    width: 120px;
+    color: black;
+    background-color: #FBFFF9;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
+.signInFieldSub2 {
+    margin-top: 5px;
+    font-size: 11px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 1px;
+    border: none;
+    width: auto;
+    z-index: 99;
+}
+
+#submitLogIn {
+    display: inline-block;
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+}
+
+.errorLogin {
+    text-align: left;
+    color: #ffb3b3;
+    z-index: 99;
+    font-size: 12px;
+    width: auto;
+    max-width: 270px;
+}
+
+.signUp {
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signInPage {
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+}
+
+#homeForm {
+    height: 200%;
+    width: 70%;
+    display: inline-block;
+    padding: 90px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    background-image: url('path.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+    .deskHome {
+        background-attachment: fixed;
+    }
+    
+        .regForm {
+            display: inline-block;
+            padding: 5px;
+            font-size: 17px;
+            color: white;
+            border: none;
+        }
+        
+        #homeUT {
+            color: black;
+            margin-left: 3px;
+        }
+        
+        .button {
+            display: inline-block;
+            width: auto;
+            color: white;
+            background-color: #70bfb7;
+            cursor: pointer;
+            padding: 6px;
+            font-size: 17px;
+            margin-left: 3px;
+            border: 1px solid #70bfb7;
+            border-radius: 5px;
+        }
+        
+        .buttonSmall {
+            display: inline-block;
+            width: auto;
+            color: white;
+            background-color: #70bfb7;
+            cursor: pointer;
+            padding: 6px;
+            font-size: 12px;
+            margin-left: 3px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+        .descHead {
+            color: #1E1E1E;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: auto;
+            font-family: mate;
+        }
+        
+                .descHead span {
+                    color: #33CC33;
+                }
+
+.desc {
+    color: black;
+    display: inline-block;
+    left: 5px;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.subDesc {
+    width: 325px;
+    height: auto;
+    margin-top: 1px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -30px;
+    font-size: 23px;
+    font-family: mate;
+}
+        .subDesc img{
+            width: 70px;
+            height: 70px;
+        }
+        
+        .subDesc a:link {
+            text-decoration: none;
+        }
+        
+        .subDesc a:hover {
+            text-decoration: underline;
+        }
+
+#forgotPass {
+    text-decoration: none;
+    color: white;
+}
+
+.inActive {
+    display: none;
+}
+/*---------------------------------------------------------ERROR-------------------------------------------------------------*/
+.bigStatement {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.indexDiv {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.indexDiv2 {
+    margin: 30px;
+}
+
+#errorLoginBot {
+    color: #FF3333;
+    margin-top: 5px;
+    font-size: 20px;
+}
+/*---------------------------------------------------------APP COUNT-------------------------------------------------------------*/
+.appCount {
+    border: 1px solid white;
+    text-align: center;
+    width: auto;
+    right: 40%;
+    top: 12px;
+    position: absolute;
+    padding: 5px;
+    color: white;
+    padding: 5px;
+    margin-top: -5px;
+    font-size: 12px;
+    display: block;
+}
+
+.appNumber {
+    font-weight: bold;
+}
+/*---------------------------------------------------------Anchor-------------------------------------------------------------*/
+.anchor {
+    margin-top: -105px;
+    position: absolute;
+    /*background-color: black;
+    width: 100px;
+    height: 100px;*/
+}
+/*---------------------------------------------------------Forgot Email-------------------------------------------------------------*/
+.emailMain {
+    width: 50%;
+    font-family: 'Arvo';
+    font-weight: bold;
+    padding-bottom: 500px;
+    color: white;
+    background-image: url('puppy3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.rightSide {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.emailMainYes {
+    font-weight: bold;
+    width: 90%;
+    height: 350px;
+    font-family: 'Arvo';
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url('spaceman.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.emailFormYes {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    position: relative;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.emailForm {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.emailFormTop {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.emailFormBot {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.buttonMid {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #70bfb7;
+    border: none;
+}
+
+#emailForm {
+    display: inline-block;
+    width: auto;
+}
+
+#emailText {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}
+
+#emailInput {
+    
+}
+
+.emailInput {
+    padding: 5px;
+    width: 150px;
+    margin-top: 3px;
+}
+
+#noEmailParent {
+    color: red;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    text-align: left;
+    max-width: 200px;
+}
+
+.emailReset {
+    color: white;
+}
+
+.hpReset {
+    margin-bottom: 30px;
+}
+
+.fail {
+    color: #FF3333;
+}
+
+.emailImg {
+    height: 300px;
+    width: 300px;
+}
+/*---------------------------------------------------------Footer-------------------------------------------------------------*/
+
+.footer {
+    background-color: #fdfffc;
+    width: 100%;
+    color: black;
+    text-align: center;
+    bottom: 0;
+}
+
+.footerSub {
+    display: inline-block;
+    padding: 3px 5px 3px 5px;
+    font-size: 12px;
+    left: 0px;
+    border-right: 1px solid black;
+}
+
+.footerSub:last-child {
+    border: none;
+}
+
+.footerSmall {
+    position: absolute;
+}
+/*---------------------------------------------------------PP TOS-------------------------------------------------------------*/
+.privacy {
+    text-align: center;
+}
+
+.privacySub {
+    text-align: left;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacyHead {
+    text-align: center;
+}
+/*-----------------------------------------------------------------MOBILE------------------------------------------*/
+/*-----------------------------------------------------------------MOBILE------------------------------------------*/
+/*-----------------------------------------------------------------MOBILE------------------------------------------*/
+@media only screen and (max-device-width: 600px) {
+/*-----------------------------------------------------------------HEADER------------------------------------------*/
+.headBarHome {
+    display: none;
+}
+
+.headBarMob {
+    background-color: #4caf50;
+    width: 100%;
+    height: 10%;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+}
+
+.headBarMobLog {
+    background-color: #4caf50;
+    width: 100%;
+    height: 7%;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+}
+
+.cphraseMob {
+    color: #b3f497;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    .logoMob {
+        width: auto;
+        height: 80px;
+        margin-top: 10px;
+    }
+    
+    .nameMob {
+        text-decoration: none;
+        color: white;
+        height: 40px;
+        width: auto;
+        vertical-align: middle;
+    }
+    
+        .nameMob:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+    .betaMob {
+        font-size: 15px;
+        vertical-align: top;
+        color: white;
+        height: 10px;
+    }
+
+.navbarHome {
+    display: none;
+}
+
+.navbarMob {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #388e3c;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.signInPageMobile {
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.submitLogInMobile {
+    display: inline-block;
+    width: auto;
+    color: black;
+    background-color: white;
+    border: solid black 1px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+/*-----------------------------------------------------------------CTA------------------------------------------*/
+.hpSec {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.centerHome {
+    padding-top: 3%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.descHead {
+    color: #1E1E1E;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: mate;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeForm {
+    display: inline-block;
+    font-size: 27px;
+    background-image: url('path.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 75%;
+}
+
+.regForm {
+    display: inline-block;
+    padding: 5px;
+    font-size: 37px;
+    color: white;
+    border: none;
+}
+
+.button {
+    display: inline-block;
+    width: auto;
+    color: white;
+    background-color: #70bfb7;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 37px;
+    margin-left: 3px;
+    border: 1px solid #70bfb7;
+    border-radius: 5px;
+}
+
+.desc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2%;
+}
+
+.subDesc {
+    height: auto;
+    width: 90%;
+    margin-bottom: 7%;
+    display: block;
+    vertical-align: top;
+    font-size: 40px;
+    font-family: mate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutSec {
+    margin-top: -3%;
+}
+
+.mobBreak {
+    display: block;
+}
+
+/*-----------------------------------------------------------------SEEKERS------------------------------------------*/
+.mainTitle {
+    font-size: 55px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.subSec {
+    padding-bottom: 5%;
+    padding-left: 0px;
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.secHead {
+    display: block;
+    text-align: center;
+    width: auto;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: mate;
+    font-weight: bolder;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.secDescHP {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: left;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.center {
+    width: auto;
+    text-align: center;
+}
+/*-----------------------------------------------------------------LOG IN------------------------------------------*/
+.emailInput {
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+}
